@@ -90,6 +90,9 @@ public class main {
      */
 
     public static void removeAll(int n, TopArray a){
+        for (int i = 0; i < cantidad(a); i++) {
+            a.arreglo[i]=0;
+        }
 
     }
 
